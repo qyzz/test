@@ -1,4 +1,7 @@
 language: node_js
 node_js:
 - "5.7"
+before_install:
+  - sudo apt-get -qq update
+  - sudo apt-get install -y rhc
 script: npm test
