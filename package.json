@@ -1,0 +1,10 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "Test rhc with travis.",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "rhc --version"
+  }
+}
